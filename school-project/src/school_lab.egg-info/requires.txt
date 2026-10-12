@@ -1,0 +1,8 @@
+
+[backend]
+pydantic<3,>=2
+
+[dev]
+pytest>=8
+ruff
+mypy
