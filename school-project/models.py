@@ -40,7 +40,7 @@ class Evidence:
 
 @dataclass(frozen=True, slots=True)
 class Finding:
-    kind: str  
+    kind: str
     score: float | None
     evidence: tuple[Evidence, ...]
     explanation: str
